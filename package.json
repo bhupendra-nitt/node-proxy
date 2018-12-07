@@ -1,0 +1,19 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "A simple proxy server to hit third party apis",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bhupendracodes.net",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.0",
+    "http-proxy": "^1.17.0",
+    "request": "^2.88.0",
+    "zlib": "^1.0.5"
+  }
+}
